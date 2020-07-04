@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="hack.chat-android" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
-  <component name="FacetManager">
+  <component name=. github/workflows/
     <facet type="java-gradle" name="Java-Gradle">
       <configuration>
-        <option name="BUILD_FOLDER_PATH" value="$MODULE_DIR$/build" />
-        <option name="BUILDABLE" value="false" />
+        <option name=WhatsApp-push-notify-action_yml
+        <option name=WhatsApp-push-notify-action_yml
+
       </configuration>
     </facet>
-  </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+  </component>[rush]
+  <component name=runs:_on: ubuntu-latest-uses:actions/checkout@master
+    <exclude-output />WhatsApp-notify
+    <content url=WhatsApp-notify
+      <excludeFolder url= account_sid:${{secrets.account_sid}}
     </content>
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-</module>
+    <orderEntry type=auth_token:${{secreta.auth_tokeb}}
+    <orderEntry type=to.whatsApp_no:${{secreta.to_whatsApp_no}}
+  </component>uses:ishween/WhatsApp-push-notify-action@master
+</module>-name:run'start!'
