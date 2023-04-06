@@ -8,17 +8,17 @@ import android.content.ClipboardManager;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.support.v4.app.NotificationCompat;
-import android.support.v4.view.GravityCompat;
-import android.support.v7.app.AlertDialog;
+import androidx.core.app.NotificationCompat;
+import androidx.core.view.GravityCompat;
+import androidx.appcompat.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.widget.Toolbar;
 import android.text.Editable;
 import android.text.InputFilter;
 import android.text.TextWatcher;
@@ -46,7 +46,7 @@ import java.util.ArrayList;
 import chat.hack.hackchat.chat.hack.hackchat.ads.HackChatInterstitialAd;
 import chat.hack.hackchat.chat.hack.hackchat.ads.HackChatInterstitialAdvertable;
 
-public class Chat extends ActionBarActivity implements OnlineNavDrawerFragment.GetDataInterface,
+public class Chat extends AppCompatActivity implements OnlineNavDrawerFragment.GetDataInterface,
         OnlineNavDrawerFragment.PassDataInterface, HackChatInterstitialAdvertable {
     private ListView lvMessages;
     private EditText etMessage;
